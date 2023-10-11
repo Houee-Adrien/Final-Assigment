@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+    background: url(../img/background.png);
+    background-repeat: repeat;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header_footer {
+    overflow: hidden;
+    background: url(../img/grass.png);
+}
+
+.header_footer a {
+    float: left;
+    color:whitesmoke;
+    text-align: center;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.header_footer a.logo {
+    padding: 0px;
+}
+
+.header_footer a:not(.logo):hover {
+    background-color: rgb(87, 85, 85);
+    color: rgb(38, 89, 42);
+    box-shadow: 0 0 3px 1px black inset;
+}
+  
+.header_footer a.active {
+    background-color: rgb(45, 29, 0);
+    color: rgb(53, 120, 58);
+    margin-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header_footer .header-left {
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.header {
+    border-radius: 0px 0px 10px 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*
+.footer {
+    border-radius: 10px 10px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: -9px;
+    text-align: center;
+}
+*/
+
+.Title_first {
+    color: rgb(76, 32, 32);
+    font-family: Impact, fantasy;
+    font-size : 25px;
+    margin-left: 1230px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size : 40px;
+    font-weight: bold;
+}
